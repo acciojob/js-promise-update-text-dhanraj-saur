@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function Promise() {
+function Hello() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve("Hello, world!");
@@ -7,6 +7,6 @@ function Promise() {
     });
 	
   }
-Promise().then(data=>{
+Hello().then((data)=>{
 	document.getElementById("output").textContent=data;
 });
